@@ -1,0 +1,45 @@
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="text-align: center;">Profile</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <form [formGroup]="profileForm" class="inputs">
+    <ion-label class="inputName">Full Name</ion-label>
+    <ion-input formControlName="fullname"  value=""></ion-input>
+    <ion-label class="inputName">Email</ion-label>
+    <ion-input formControlName="email"  value=""></ion-input>
+    <ion-label class="inputName">Contact</ion-label>
+    <ion-input formControlName="contact"  value=""></ion-input>
+  </form>
+  <ion-button color="primary" class="btn">LOGOUT</ion-button>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button ion-button large (click)="RedirectToOtherPage1()" color="light">
+      <div>
+        <ion-icon color="primary" name="home"></ion-icon>
+        <div>Home</div>
+      </div>
+    </ion-button>
+    <ion-button ion-button large (click)="RedirectToOtherPage2()" color="light">
+      <div>
+        <ion-icon color="primary" name="chevron-up-outline"></ion-icon>
+        <div>Actvities</div>
+      </div>
+    </ion-button>
+    <ion-button ion-button large (click)="RedirectToOtherPage3()" color="light">
+      <div>
+        <ion-icon color="primary" name="list"></ion-icon>
+        <div>Service</div>
+      </div>
+    </ion-button>
+    <ion-button ion-button large (click)="RedirectToOtherPage4()" color="primary">
+      <div>
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <div>Profile</div>
+      </div>
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

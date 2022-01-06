@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ion-content {
+  --background: #4c8dff;
+  ion-header {
+    ion-toolbar{
+        --background: trnasparent;
+    }
+}
+
+.sign{
+  margin-top:80px;
+  margin-left:20px;
+  color:#ffffff;
+}
+.inputs{
+    margin-left:20px;
+    margin-right:20px;
+    padding: 10%;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  ion-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px #4c8dff solid;
+    border-radius: 10px;
+    height:50px;
+  }
+  ion-label{
+    color:#4c8dff;
+  }
+  ion-button{
+    width:99%;
+    height:50px;
+  }  
+}

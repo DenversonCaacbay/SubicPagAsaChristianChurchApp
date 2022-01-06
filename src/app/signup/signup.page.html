@@ -1,0 +1,22 @@
+<ion-content>
+  <ion-header class="ion-no-border">
+    <ion-toolbar class="ion-toolbar">
+      <ion-buttons slot="start">
+        <ion-back-button color="light" defaultHref="home"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <h1 class="sign">Sign Up</h1>
+  <form [formGroup]="signupform" class="inputs">
+    <ion-label class="inputName">Full Name</ion-label>
+    <ion-input formControlName="fullname" clearInput value=""></ion-input>
+    <ion-label class="inputName">Email</ion-label>
+    <ion-input formControlName="email" clearInput value=""></ion-input>
+    <ion-label class="inputName">Contact Number</ion-label>
+    <ion-input formControlName="contact" clearInput value=""></ion-input>
+    <ion-label class="inputName">Password</ion-label>
+    <ion-input formControlName="password" clearInput value=""></ion-input>
+    <ion-button (click)="signup()" (click)="presentToast()" color="primary" class="btn">Sign Up</ion-button>
+   
+  </form>
+</ion-content>

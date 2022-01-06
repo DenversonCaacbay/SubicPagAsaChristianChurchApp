@@ -1,0 +1,76 @@
+<ion-content [fullscreen]="true">
+
+  <!--CARD-->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>SI HESUS AY MULING NABUHAY - Week 4 | SPCC Children's Ministry</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="/assets/verse1.jpg">
+      <a href="https://www.youtube.com/watch?v=eFebqJKiSVk">Watch Now</a>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>ANG DIYOS AY BANAL - Week 4 | SPCC Children's Ministry</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="/assets/verse2.jpg">
+      <a href="https://www.youtube.com/watch?v=T_l8fi70Ocg">Watch Now</a>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>ANG ARKO NI NOE - Week 2 | SPCC Children's Ministry</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="/assets/verse3.jpg">
+      <a href="">Watch Now</a>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>ANG DIYOS ANG PASIMULA NG LAHAT NG BAGAY - Week 1 | SPCC Children's</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="/assets/verse4.jpg">
+      <a href="">Watch Now</a>
+    </ion-card-content>
+  </ion-card>
+
+
+      
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button ion-button large (click)="RedirectToOtherPage1()" color="primary">
+      <div>
+        <ion-icon name="home"></ion-icon>
+        <div>Home</div>
+      </div>
+    </ion-button>
+    <ion-button ion-button large (click)="RedirectToOtherPage2()" color="light">
+      <div>
+        <ion-icon color="primary" name="chevron-up-outline"></ion-icon>
+        <div>Actvities</div>
+      </div>
+    </ion-button>
+    <ion-button ion-button large (click)="RedirectToOtherPage3()" not-active color="light">
+      <div>
+        <ion-icon color="primary" name="list"></ion-icon>
+        <div>Service</div>
+      </div>
+    </ion-button>
+    <ion-button ion-button large (click)="RedirectToOtherPage4()" not-active color="light">
+      <div>
+        <ion-icon color="primary" name="person-circle-outline"></ion-icon>
+        <div>Profile</div>
+      </div>
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

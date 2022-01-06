@@ -1,0 +1,38 @@
+ion-content {
+  --background: #ffffff;
+  ion-footer{
+      --background: #ffffff;
+  }
+}
+ion-card{
+    border: 1px #3880ff solid;
+    border-radius: 10px;
+    background: #ffffff
+  }
+  ion-card-title {
+    color:black;
+}
+ion-card-header{
+  color:black;
+}
+  ion-icon{
+    height:30px;
+    width:30px;
+  }
+ion-button{
+    height: 60px;
+    width: 24%;
+    color:#3880ff;
+  }
+
+.button-icon-top {
+    height: 5em;
+    .button-inner {
+      flex-flow: column;
+  
+      .icon {
+        margin-bottom: 10px;
+        font-size: 2em;
+      }
+    }
+  }
